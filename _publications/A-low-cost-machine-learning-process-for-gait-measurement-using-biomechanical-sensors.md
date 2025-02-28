@@ -6,6 +6,6 @@ excerpt: 'During my Master degree, I worked on the measurement of humain gait us
 date: 2021-09-24
 venue: 'IMEKO'
 # slidesurl: ''
-paperurl: '/files/A low-cost machine learning process for gait measurement using biomechanical sensors.pdf'
+paperurl: '/files/Papers/A low-cost machine learning process for gait measurement using biomechanical sensors.pdf'
 citation: 'Abdel Khalek, Farah and Hartley, Marc and al. A low-cost machine learning process for gait measurement using biomechanical sensors (2021) '
 ---

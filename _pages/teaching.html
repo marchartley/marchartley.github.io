@@ -7,6 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
+{% endfor %} -->
+
+{% assign grouped_posts = site.teaching | group_by: "venue" | reverse %}
+{% for group in grouped_posts %}
+  <h2>{{ group.name }}</h2>
+  {% for post in group.items %}
+    {% include archive-single.html %}
+  {% endfor %}
 {% endfor %}

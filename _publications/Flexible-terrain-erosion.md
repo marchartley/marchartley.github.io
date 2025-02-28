@@ -6,6 +6,6 @@ excerpt: 'A part of my PhD thesis in which I proposed a method for simulating er
 date: 2024-06-05
 venue: 'The Visual Computer'
 # slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: '/files/Flexible Terrain Erosion.pdf'
+paperurl: '/files/Papers/Flexible Terrain Erosion.pdf'
 citation: 'Hartley, Marc and Mellado, Nicolas and Fiorio, Christophe and Faraj, Noura. Flexible terrain erosion (2024)'
 ---
