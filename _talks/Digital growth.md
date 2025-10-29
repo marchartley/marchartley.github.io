@@ -24,17 +24,17 @@ The ICAR research team often propose to present a random subject during what we 
 
 ## Reaction-Diffusion (RD)
 [Link to code and web viewer](https://editor.p5js.org/marchartley/sketches/q-kafkilA)
-<iframe src="https://editor.p5js.org/marchartley/full/q-kafkilA" width="100%" height="400px" onload="resizeIframe(this)"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/q-kafkilA" width="100%" height="400px" class="ui-widget-content"></iframe>
 
 ## Diffusion-Limited Aggregation (DLA)
 [Link to code and web viewer](https://editor.p5js.org/marchartley/sketches/ZwPy8xGOp)
-<iframe src="https://editor.p5js.org/marchartley/full/ZwPy8xGOp" width="100%" height="400px" onload="resizeIframe(this)"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/ZwPy8xGOp" width="100%" height="400px" class="ui-widget-content"></iframe>
 
 ## L-system
 [Link to code and web viewer](https://editor.p5js.org/marchartley/sketches/UkGvoRwob)
-<iframe src="https://editor.p5js.org/marchartley/full/UkGvoRwob" width="100%" height="400px" onload="resizeIframe(this)"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/UkGvoRwob" width="100%" height="400px" class="ui-widget-content"></iframe>
 
 ## Space Colonization
 [Link to code and web viewer](https://editor.p5js.org/marchartley/sketches/_g3xOJuUy)
-<iframe src="https://editor.p5js.org/marchartley/full/_g3xOJuUy" width="100%" height="auto" onload="resizeIframe(this)"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/_g3xOJuUy"></iframe>
  

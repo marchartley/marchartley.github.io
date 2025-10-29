@@ -22,7 +22,7 @@ repository               : "marchartley/marchartley.github.io"
 author:
   # Biographic information
   avatar           : "Photo_Marc_Hartley.jpg"
-  name             : "Marc Hartley"
+  name             : "Marc Hartley" 
   pronouns         : # example: "she/her"  
   bio              : "PhD student in procedural terrain generation at University of Montpellier, France with <a href='https://www.lirmm.fr/icar/index.html'>ICAR Team</a>"
   location         : "Montpellier"

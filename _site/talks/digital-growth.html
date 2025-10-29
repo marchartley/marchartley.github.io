@@ -127,16 +127,31 @@
 
 <!-- end custom head snippets -->
 
-<script>
-function resizeIframe(iframe) {
-  setTimeout(() => {
-    iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
-                    iframe.contentWindow.addEventListener('resize', () => {
-                        iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
-                    });
-  }, 100);
-}
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
 
+<script>
+// function resizeIframe(iframe) {
+//   setTimeout(() => {
+//     iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+//                     iframe.contentWindow.addEventListener('resize', () => {
+//                         iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+//                     });
+//   }, 100);
+// }
+$(document).ready(function() {
+  $('iframe').each(function() {
+    $(this).wrap('<div class="resizable" style="width:100%; height:auto;"></div>');
+  });
+});
+$(function () {
+    $(".resizable").resizable({
+        animate: false,
+        animateEasing: 'swing',
+        animateDuration: 500
+    });
+});
 </script>
 
 
@@ -144,9 +159,11 @@ function resizeIframe(iframe) {
 iframe {
   display: block;
   width: 100%;
-  min-height: 400px; /* Adjust as needed */
-  overflow: hidden;
+  height: 100% !important;
+  min-height: 500px;
+  image-rendering: pixelated;
 }
+
 </style>
 
   </head>
@@ -293,7 +310,7 @@ iframe {
         <li><a href="https://www.stackoverflow.com/users/9863298/marco"><i class="fab fa-fw fa-stack-overflow icon-pad-right" aria-hidden="true"></i>Stackoverflow</a></li>
             
       
-        <li><a href="https://editor.p5js.org/kemar74/sketches"><i class="fab fa-fw fa-p5-js icon-pad-right" aria-hidden="true"></i>P5.js</a></li>
+        <li><a href="https://editor.p5js.org/marchartley/sketches"><i class="fab fa-fw fa-p5-js icon-pad-right" aria-hidden="true"></i>P5.js</a></li>
             
 
       <!-- Font Awesome icons / Social media -->
@@ -368,19 +385,19 @@ iframe {
 
 <h2 id="reaction-diffusion-rd">Reaction-Diffusion (RD)</h2>
 <p><a href="https://editor.p5js.org/marchartley/sketches/q-kafkilA">Link to code and web viewer</a></p>
-<iframe src="https://editor.p5js.org/marchartley/full/q-kafkilA" width="100%" height="400px" onload="resizeIframe(this)"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/q-kafkilA" width="100%" height="400px" class="ui-widget-content"></iframe>
 
 <h2 id="diffusion-limited-aggregation-dla">Diffusion-Limited Aggregation (DLA)</h2>
 <p><a href="https://editor.p5js.org/marchartley/sketches/ZwPy8xGOp">Link to code and web viewer</a></p>
-<iframe src="https://editor.p5js.org/marchartley/full/ZwPy8xGOp" width="100%" height="400px" onload="resizeIframe(this)"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/ZwPy8xGOp" width="100%" height="400px" class="ui-widget-content"></iframe>
 
 <h2 id="l-system">L-system</h2>
 <p><a href="https://editor.p5js.org/marchartley/sketches/UkGvoRwob">Link to code and web viewer</a></p>
-<iframe src="https://editor.p5js.org/marchartley/full/UkGvoRwob" width="100%" height="400px" onload="resizeIframe(this)"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/UkGvoRwob" width="100%" height="400px" class="ui-widget-content"></iframe>
 
 <h2 id="space-colonization">Space Colonization</h2>
 <p><a href="https://editor.p5js.org/marchartley/sketches/_g3xOJuUy">Link to code and web viewer</a></p>
-<iframe src="https://editor.p5js.org/marchartley/full/_g3xOJuUy" width="100%" height="auto" onload="resizeIframe(this)"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/_g3xOJuUy"></iframe>
 
 
         
@@ -448,13 +465,13 @@ iframe {
       </footer>
     </div>
 
-    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+    <!-- <script src="http://localhost:4000/assets/js/main.min.js"></script> -->
+
+<!-- 
 
 
 
-
-
-
+ -->
 
 
 
