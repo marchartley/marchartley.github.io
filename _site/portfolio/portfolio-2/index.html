@@ -124,6 +124,25 @@
 
 <!-- end custom head snippets -->
 
+<script>
+function resizeIframe(obj) {
+  setTimeout(() => {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }, 100);
+}
+
+</script>
+
+
+<style>
+iframe {
+  display: block;
+  width: 100%;
+  min-height: 400px; /* Adjust as needed */
+  overflow: hidden;
+}
+</style>
+
   </head>
 
   <body>

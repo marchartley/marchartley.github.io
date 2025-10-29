@@ -9,10 +9,10 @@ location: "LIRMM, Montpellier, France"
 ---
 
 I like to present random works for our small research group. Here, I presented a short introduction to particle systems for bio-inspired algorithm:
-- Boids [(link to a web demo)](https://editor.p5js.org/kemar74/full/zKzaqXUCK),
-- Particle Swarm Optimisation ([link to a web demo](https://editor.p5js.org/kemar74/full/rQtnciGnr) with a comparison to [gradient descent](https://editor.p5js.org/kemar74/full/paAoomRkx)),
-- Snake: Active Contours [(link to a web demo)](https://editor.p5js.org/kemar74/full/Rl9VFu7Tt),
-- Ant Colony Optimisation [(link to a web demo)](https://editor.p5js.org/kemar74/full/wA1ADIEHS)
+- Boids [(link to a web demo)](https://editor.p5js.org/marchartley/full/zKzaqXUCK),
+- Particle Swarm Optimisation ([link to a web demo](https://editor.p5js.org/marchartley/full/rQtnciGnr) with a comparison to [gradient descent](https://editor.p5js.org/marchartley/full/paAoomRkx)),
+- Snake: Active Contours [(link to a web demo)](https://editor.p5js.org/marchartley/full/Rl9VFu7Tt),
+- Ant Colony Optimisation [(link to a web demo)](https://editor.p5js.org/marchartley/full/wA1ADIEHS)
 
 
 <object data="/files/Presentations/Bio-inspired algorithms: Birds, hikers, snakes and ants - Marc Hartley 26-02-2025.pdf" type="application/pdf" width="750px" height="750px">
@@ -24,13 +24,13 @@ I like to present random works for our small research group. Here, I presented a
 
 
 Boids:
-<iframe src="https://editor.p5js.org/kemar74/full/zKzaqXUCK" width="600" height="900"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/zKzaqXUCK" width="600" height="900"></iframe>
 
 Particle Swarm Optimisation: 
-<iframe src="https://editor.p5js.org/kemar74/full/rQtnciGnr" width="600" height="900"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/rQtnciGnr" width="600" height="900"></iframe>
 
 Snake:
-<iframe src="https://editor.p5js.org/kemar74/full/Rl9VFu7Tt" width="600" height="900"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/Rl9VFu7Tt" width="600" height="900"></iframe>
 
 Ant Colony Optimisation:
-<iframe src="https://editor.p5js.org/kemar74/full/wA1ADIEHS" width="600" height="900"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/wA1ADIEHS" width="600" height="900"></iframe>

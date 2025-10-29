@@ -14,6 +14,7 @@ I prioritize predictability to ensure the generated results are interpretable an
 
 My fields of interest are mainly focused around:
 * Procedural modeling
+* Terrain generation
 * Texture generation
 * Particle systems
 * Animal behaviour

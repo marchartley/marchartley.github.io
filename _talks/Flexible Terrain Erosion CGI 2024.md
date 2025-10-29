@@ -4,7 +4,7 @@ collection: talks
 type: "Conference presentation"
 permalink: /talks/flexible-terrain-erosion
 venue: "CGI 2024"
-date: 2014-02-01
+date: 2024-06-28
 location: "Geneva, Switzerland"
 ---
 

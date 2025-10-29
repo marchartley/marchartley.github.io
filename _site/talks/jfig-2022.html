@@ -127,6 +127,25 @@
 
 <!-- end custom head snippets -->
 
+<script>
+function resizeIframe(obj) {
+  setTimeout(() => {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }, 100);
+}
+
+</script>
+
+
+<style>
+iframe {
+  display: block;
+  width: 100%;
+  min-height: 400px; /* Adjust as needed */
+  overflow: hidden;
+}
+</style>
+
   </head>
 
   <body>
@@ -357,8 +376,7 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/flexible-terrain-erosion" class="pagination--pager" title="Flexible Terrain Erosion Compatible with Multiple Representations
-">Previous</a>
+      <a href="#" class="pagination--pager disabled">Previous</a>
     
     
       <a href="http://localhost:4000/talks/irit-2023" class="pagination--pager" title="Visiting IRIT

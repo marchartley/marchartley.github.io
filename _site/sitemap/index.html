@@ -122,6 +122,25 @@
 
 <!-- end custom head snippets -->
 
+<script>
+function resizeIframe(obj) {
+  setTimeout(() => {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }, 100);
+}
+
+</script>
+
+
+<style>
+iframe {
+  display: block;
+  width: 100%;
+  min-height: 400px; /* Adjust as needed */
+  overflow: hidden;
+}
+</style>
+
   </head>
 
   <body>
@@ -1410,6 +1429,35 @@
   </article>
 </div>
 
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/publication/Thesis" rel="permalink">Thesis 2025
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p>Published in <i></i>, 1900 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>My thesis manuscript about procedural underwater environment generation
+<strong><a href="http://localhost:4000/publication/Thesis" rel="permalink"> Read more</a></strong></p></p>
+    
+    
+    
+      <p>Recommended citation: Hartley, Marc. Procedural Generation of 3D Underwater Environments (2021) <br /><a href="/files/Thesis/Thesis-final.pdf">Download Paper</a></p>
+    
+
+  </article>
+</div>
+
 <h2>random</h2>
 
 <div class="list__item">
@@ -1435,7 +1483,7 @@
     
     
     
-      <p><a href=" /files/Algorithmes de recherche de chemins les plus courts.pdf ">Download Paper</a></p>
+      <p><a href=" /files/Random/Algorithmes de recherche de chemins les plus courts.pdf ">Download Paper</a></p>
     
 
   </article>
@@ -1464,7 +1512,7 @@
     
     
     
-      <p><a href=" /files/Algorithme simulation de fluide.pdf ">Download Paper</a></p>
+      <p><a href=" /files/Random/Algorithme simulation de fluide.pdf ">Download Paper</a></p>
     
 
   </article>
@@ -1489,11 +1537,12 @@
 
     
     <p class="archive__item-excerpt" itemprop="description"><p>Voilà quelques algorithmes que j’ai essayé de mettre en place pour réaliser du simili-transport optimal. Réalisé en début de thèse, à ne pas prendre au serieux..!
+
 <strong><a href="http://localhost:4000/random/shape-morphing" rel="permalink"> Read more</a></strong></p></p>
     
     
     
-      <p><a href=" /files/Algorithmes homemade de shape morphing 2D.pdf ">Download Paper</a></p>
+      <p><a href=" /files/Random/Algorithmes homemade de shape morphing 2D.pdf ">Download Paper</a></p>
     
 
   </article>
@@ -1522,7 +1571,7 @@
     
     
     
-      <p><a href=" /files/Distribution Biomes Geom Topo.pdf ">Download Paper</a></p>
+      <p><a href=" /files/Random/Distribution Biomes Geom Topo.pdf ">Download Paper</a></p>
     
 
   </article>
@@ -1551,41 +1600,13 @@
     
     
     
-      <p><a href=" /files/Distribution Biomes Topo Geom.pdf ">Download Paper</a></p>
+      <p><a href=" /files/Random/Distribution Biomes Topo Geom.pdf ">Download Paper</a></p>
     
 
   </article>
 </div>
 
 <h2>talks</h2>
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://localhost:4000/talks/flexible-terrain-erosion" rel="permalink">Flexible Terrain Erosion Compatible with Multiple Representations
-</a>
-      
-    </h2>
-    
-    
-
-        
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2014-02-01T00:00:00+01:00">February 01, 2014</time></p>
-        
-
-    
-    <p class="archive__item-excerpt" itemprop="description"><p>I presented my work on terrain erosion at CGI 2024 conference in Geneva, Switzerland:
-
-<strong><a href="http://localhost:4000/talks/flexible-terrain-erosion" rel="permalink"> Read more</a></strong></p></p>
-    
-    
-    
-
-  </article>
-</div>
 
 <div class="list__item">
   <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
@@ -1761,6 +1782,34 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="http://localhost:4000/talks/flexible-terrain-erosion" rel="permalink">Flexible Terrain Erosion Compatible with Multiple Representations
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-06-28T00:00:00+02:00">June 28, 2024</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>I presented my work on terrain erosion at CGI 2024 conference in Geneva, Switzerland:
+
+<strong><a href="http://localhost:4000/talks/flexible-terrain-erosion" rel="permalink"> Read more</a></strong></p></p>
+    
+    
+    
+
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="http://localhost:4000/talks/bio-inspired-algorithms" rel="permalink">Bio-inspired algorithm using particles
 </a>
       
@@ -1775,13 +1824,47 @@
     
     <p class="archive__item-excerpt" itemprop="description"><p>I like to present random works for our small research group. Here, I presented a short introduction to particle systems for bio-inspired algorithm:
 <ul>
-  <li>Boids <a href="https://editor.p5js.org/kemar74/full/zKzaqXUCK">(link to a web demo)</a>,</li>
-  <li>Particle Swarm Optimisation (<a href="https://editor.p5js.org/kemar74/full/rQtnciGnr">link to a web demo</a> with a comparison to <a href="https://editor.p5js.org/kemar74/full/paAoomRkx">gradient descent</a>),</li>
-  <li>Snake: Active Contours <a href="https://editor.p5js.org/kemar74/full/Rl9VFu7Tt">(link to a web demo)</a>,</li>
-  <li>Ant Colony Optimisation <a href="https://editor.p5js.org/kemar74/full/wA1ADIEHS">(link to a web demo)</a></li>
+  <li>Boids <a href="https://editor.p5js.org/marchartley/full/zKzaqXUCK">(link to a web demo)</a>,</li>
+  <li>Particle Swarm Optimisation (<a href="https://editor.p5js.org/marchartley/full/rQtnciGnr">link to a web demo</a> with a comparison to <a href="https://editor.p5js.org/marchartley/full/paAoomRkx">gradient descent</a>),</li>
+  <li>Snake: Active Contours <a href="https://editor.p5js.org/marchartley/full/Rl9VFu7Tt">(link to a web demo)</a>,</li>
+  <li>Ant Colony Optimisation <a href="https://editor.p5js.org/marchartley/full/wA1ADIEHS">(link to a web demo)</a></li>
 </ul>
 
 <strong><a href="http://localhost:4000/talks/bio-inspired-algorithms" rel="permalink"> Read more</a></strong></p></p>
+    
+    
+    
+
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/talks/digital-growth" rel="permalink">Some algorithms for procedural generation of biology
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-10-29T00:00:00+01:00">October 29, 2025</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>The ICAR research team often propose to present a random subject during what we called “speech lunches”. Here I presented the four <em>random</em> algorithms for “digital growth”:
+<ul>
+  <li>Reaction-diffusion for the generation of Turing patterns,</li>
+  <li>Diffusion-Limited Aggregation for dendritic patterns,</li>
+  <li>L-system for fractal plant growth,</li>
+  <li>Space colonization for constrainted tree modelling.</li>
+</ul>
+
+<strong><a href="http://localhost:4000/talks/digital-growth" rel="permalink"> Read more</a></strong></p></p>
     
     
     

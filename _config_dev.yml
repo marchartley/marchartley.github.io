@@ -1,0 +1,3 @@
+safe: false              # allow local plugins if you ever need them
+url: "http://localhost:4000"
+baseurl: ""

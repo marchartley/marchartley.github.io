@@ -122,6 +122,25 @@
 
 <!-- end custom head snippets -->
 
+<script>
+function resizeIframe(obj) {
+  setTimeout(() => {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }, 100);
+}
+
+</script>
+
+
+<style>
+iframe {
+  display: block;
+  width: 100%;
+  min-height: 400px; /* Adjust as needed */
+  overflow: hidden;
+}
+</style>
+
   </head>
 
   <body>
@@ -294,6 +313,7 @@
 <p>My fields of interest are mainly focused around:</p>
 <ul>
   <li>Procedural modeling</li>
+  <li>Terrain generation</li>
   <li>Texture generation</li>
   <li>Particle systems</li>
   <li>Animal behaviour</li>

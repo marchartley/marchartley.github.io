@@ -122,6 +122,25 @@
 
 <!-- end custom head snippets -->
 
+<script>
+function resizeIframe(obj) {
+  setTimeout(() => {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }, 100);
+}
+
+</script>
+
+
+<style>
+iframe {
+  display: block;
+  width: 100%;
+  min-height: 400px; /* Adjust as needed */
+  overflow: hidden;
+}
+</style>
+
   </head>
 
   <body>
@@ -298,6 +317,35 @@
     
     
 <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user=gSAUO5EAAAAJ">my Google Scholar profile</a>.</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/publication/Thesis" rel="permalink">Thesis 2025
+</a>
+      
+    </h2>
+    
+    
+
+        
+          <p>Published in <i></i>, 1900 </p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>My thesis manuscript about procedural underwater environment generation
+<strong><a href="http://localhost:4000/publication/Thesis" rel="permalink"> Read more</a></strong></p></p>
+    
+    
+    
+      <p>Recommended citation: Hartley, Marc. Procedural Generation of 3D Underwater Environments (2021) <br /><a href="/files/Thesis/Thesis-final.pdf">Download Paper</a></p>
+    
+
+  </article>
+</div>
 
 <div class="list__item">
   <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">

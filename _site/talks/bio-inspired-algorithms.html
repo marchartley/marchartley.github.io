@@ -127,6 +127,25 @@
 
 <!-- end custom head snippets -->
 
+<script>
+function resizeIframe(obj) {
+  setTimeout(() => {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }, 100);
+}
+
+</script>
+
+
+<style>
+iframe {
+  display: block;
+  width: 100%;
+  min-height: 400px; /* Adjust as needed */
+  overflow: hidden;
+}
+</style>
+
   </head>
 
   <body>
@@ -332,10 +351,10 @@
       <section class="page__content" itemprop="text">
         <p>I like to present random works for our small research group. Here, I presented a short introduction to particle systems for bio-inspired algorithm:</p>
 <ul>
-  <li>Boids <a href="https://editor.p5js.org/kemar74/full/zKzaqXUCK">(link to a web demo)</a>,</li>
-  <li>Particle Swarm Optimisation (<a href="https://editor.p5js.org/kemar74/full/rQtnciGnr">link to a web demo</a> with a comparison to <a href="https://editor.p5js.org/kemar74/full/paAoomRkx">gradient descent</a>),</li>
-  <li>Snake: Active Contours <a href="https://editor.p5js.org/kemar74/full/Rl9VFu7Tt">(link to a web demo)</a>,</li>
-  <li>Ant Colony Optimisation <a href="https://editor.p5js.org/kemar74/full/wA1ADIEHS">(link to a web demo)</a></li>
+  <li>Boids <a href="https://editor.p5js.org/marchartley/full/zKzaqXUCK">(link to a web demo)</a>,</li>
+  <li>Particle Swarm Optimisation (<a href="https://editor.p5js.org/marchartley/full/rQtnciGnr">link to a web demo</a> with a comparison to <a href="https://editor.p5js.org/marchartley/full/paAoomRkx">gradient descent</a>),</li>
+  <li>Snake: Active Contours <a href="https://editor.p5js.org/marchartley/full/Rl9VFu7Tt">(link to a web demo)</a>,</li>
+  <li>Ant Colony Optimisation <a href="https://editor.p5js.org/marchartley/full/wA1ADIEHS">(link to a web demo)</a></li>
 </ul>
 
 <object data="/files/Presentations/Bio-inspired algorithms: Birds, hikers, snakes and ants - Marc Hartley 26-02-2025.pdf" type="application/pdf" width="750px" height="750px">
@@ -346,16 +365,16 @@
 <!-- <iframe src="/files/Presentations/Bio-inspired algorithms: Birds, hikers, snakes and ants - Marc Hartley 26-02-2025.pdf"></iframe> -->
 
 <p>Boids:</p>
-<iframe src="https://editor.p5js.org/kemar74/full/zKzaqXUCK" width="600" height="900"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/zKzaqXUCK" width="600" height="900"></iframe>
 
 <p>Particle Swarm Optimisation:</p>
-<iframe src="https://editor.p5js.org/kemar74/full/rQtnciGnr" width="600" height="900"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/rQtnciGnr" width="600" height="900"></iframe>
 
 <p>Snake:</p>
-<iframe src="https://editor.p5js.org/kemar74/full/Rl9VFu7Tt" width="600" height="900"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/Rl9VFu7Tt" width="600" height="900"></iframe>
 
 <p>Ant Colony Optimisation:</p>
-<iframe src="https://editor.p5js.org/kemar74/full/wA1ADIEHS" width="600" height="900"></iframe>
+<iframe src="https://editor.p5js.org/marchartley/full/wA1ADIEHS" width="600" height="900"></iframe>
 
         
       </section>
@@ -376,11 +395,12 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/talks/cellular-automata" class="pagination--pager" title="Cellular automata: a brief history
+      <a href="http://localhost:4000/talks/flexible-terrain-erosion" class="pagination--pager" title="Flexible Terrain Erosion Compatible with Multiple Representations
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="http://localhost:4000/talks/digital-growth" class="pagination--pager" title="Some algorithms for procedural generation of biology
+">Next</a>
     
   </nav>
 

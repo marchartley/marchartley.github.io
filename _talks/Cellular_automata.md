@@ -17,3 +17,10 @@ I like to present random works for our small research group. Here, I presented b
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/files/Presentations/Presentation3D_Cellular-Automata.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+
+Some examples of cellular automata to see them in action:
+
+## Game of life
+[Link to code and web viewer](https://editor.p5js.org/marchartley/sketches/MlW8v3NQX)
+<iframe src="https://editor.p5js.org/marchartley/full/MlW8v3NQX" width="100%" height="400px"></iframe>
