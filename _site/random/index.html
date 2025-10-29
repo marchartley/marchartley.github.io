@@ -123,9 +123,12 @@
 <!-- end custom head snippets -->
 
 <script>
-function resizeIframe(obj) {
+function resizeIframe(iframe) {
   setTimeout(() => {
-    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+                    iframe.contentWindow.addEventListener('resize', () => {
+                        iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+                    });
   }, 100);
 }
 
