@@ -127,14 +127,6 @@
 <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
 
 <script>
-// function resizeIframe(iframe) {
-//   setTimeout(() => {
-//     iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
-//                     iframe.contentWindow.addEventListener('resize', () => {
-//                         iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
-//                     });
-//   }, 100);
-// }
 $(document).ready(function() {
   $('iframe').each(function() {
     $(this).wrap('<div class="resizable" style="width:100%; height:auto;"></div>');
