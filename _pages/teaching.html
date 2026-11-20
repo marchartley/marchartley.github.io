@@ -7,14 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
+<h2>Supervision</h2>
+<p><strong>Vincent Bernardon</strong>, M2 Informatique (IMAGINE), University of Montpellier, February-July 2026. I co-supervised his internship with Nicolas Lutz and Juliette Drupt on generating synthetic seabeds to train a model that converts sonar images to depth maps.</p>
+
+<p><strong>Louis Jean</strong>, M2 Informatique (IMAGINE), University of Montpellier, February-July 2025. I co-supervised his internship with Noura Faraj on exploring our Environmental Objects framework and porting of our prototype to Unreal Engine 5.</p>
+   
+<a href="https://www.lirmm.fr/icar/trainee.html">ICAR internship listing</a>
+<h2>Courses</h2>
 
 {% assign grouped_posts = site.teaching | group_by: "venue" | reverse %}
 {% for group in grouped_posts %}
-  <h2>{{ group.name }}</h2>
+  <h3>{{ group.name }}</h3>
   {% for post in group.items %}
     {% include archive-single.html %}
   {% endfor %}

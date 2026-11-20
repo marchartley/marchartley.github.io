@@ -1,0 +1,8 @@
+{% assign publication = include.publication %}
+{% if publication.doi or publication.halurl %}
+  <p>
+    {% if publication.doi %}<a href="https://doi.org/{{ publication.doi }}">Publisher (DOI)</a>{% endif %}
+    {% if publication.doi and publication.halurl %} · {% endif %}
+    {% if publication.halurl %}<a href="{{ publication.halurl }}">HAL record</a>{% endif %}
+  </p>
+{% endif %}

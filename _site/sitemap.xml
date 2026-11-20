@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/portfolio/portfolio-1/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/portfolio/portfolio-2/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/posts/2012/08/blog-post-1/</loc>
 <lastmod>2012-08-14T00:00:00+02:00</lastmod>
 </url>
@@ -27,6 +21,15 @@
 <lastmod>2199-01-01T00:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/projects/coral-reef-generation/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/flexible-terrain-erosion/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/synthetic-seabeds-for-sonar/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/publication/A-low-cost-machine-learning-process-for-gait-measurement-using-biomechanical-sensors</loc>
 <lastmod>2021-09-24T00:00:00+02:00</lastmod>
 </url>
@@ -36,6 +39,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/publication/Thesis</loc>
+<lastmod>2025-12-15T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/random/shortest-path</loc>
@@ -154,7 +158,7 @@
 <loc>http://localhost:4000/page-archive/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/portfolio/</loc>
+<loc>http://localhost:4000/projects/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/publications/</loc>

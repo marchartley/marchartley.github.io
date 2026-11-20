@@ -9,7 +9,9 @@ location: "Geneva, Switzerland"
 ---
 
 
-I presented my work on terrain erosion at CGI 2024 conference in Geneva, Switzerland:
+I presented our particle-based terrain erosion method at CGI 2024 in Geneva. The work received the **Best Student Paper Award**.
+
+[Publication]({{ '/publication/Flexible-terrain-erosion' | relative_url }})
 
 <object data="/files/Papers/Presentation_ Flexible Terrain Erosion Compatible with Multiple Representations_2024-06-28.pdf" type="application/pdf" width="750px" height="750px">
     <embed src="/files/Papers/Presentation_ Flexible Terrain Erosion Compatible with Multiple Representations_2024-06-28.pdf" type="application/pdf">
